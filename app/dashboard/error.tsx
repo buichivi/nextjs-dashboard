@@ -1,7 +1,7 @@
 'use client'; // Error boundaries must be Client Components
 
 export default function Error({
-  error,
+  // error,
   reset,
 }: {
   error: Error & { digest?: string };
